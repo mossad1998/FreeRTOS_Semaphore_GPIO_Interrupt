@@ -399,16 +399,6 @@
               <FilePath>.\GPIO_Driver.h</FilePath>
             </File>
             <File>
-              <FileName>GPIO_Interrupt_Driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\GPIO_Interrupt_Driver.c</FilePath>
-            </File>
-            <File>
-              <FileName>GPIO_Interrupt_Driver.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\GPIO_Interrupt_Driver.h</FilePath>
-            </File>
-            <File>
               <FileName>Debug_Driver.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Debug_Driver.c</FilePath>
@@ -417,6 +407,16 @@
               <FileName>Debug_Driver.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Debug_Driver.h</FilePath>
+            </File>
+            <File>
+              <FileName>Interrupt_Driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Interrupt_Driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>Interrupt_Driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Interrupt_Driver.h</FilePath>
             </File>
           </Files>
         </Group>

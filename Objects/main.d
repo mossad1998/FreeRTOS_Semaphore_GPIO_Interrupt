@@ -27,6 +27,6 @@
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: tm4c123gh6pm.h
-.\objects\main.o: GPIO_Interrupt_Driver.h
+.\objects\main.o: Interrupt_Driver.h
 .\objects\main.o: Debug_Driver.h
 .\objects\main.o: GPIO_Driver.h
