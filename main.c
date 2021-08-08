@@ -25,6 +25,7 @@
    History
    =======
    2021/August/08  - First release (Mosad)
+   mo.eldibani@gmail.com
 */
 
 SemaphoreHandle_t Semaphore;																		//Create Semaphore
