@@ -28,13 +28,13 @@ Project File Date:  08/08/2021
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
 compiling main.c...
-main.c(75): warning:  #188-D: enumerated type mixed with another type
-  	NVIC_SetPriority(30,5);
-main.c(76): warning:  #188-D: enumerated type mixed with another type
-  	NVIC_EnableIRQ(30);
+main.c(91): warning:  #188-D: enumerated type mixed with another type
+  	NVIC_SetPriority(30,5);																					//set Priority for PORTF
+main.c(92): warning:  #188-D: enumerated type mixed with another type
+  	NVIC_EnableIRQ(30);																							//Enable Interrupt																			
 main.c: 2 warnings, 0 errors
 linking...
-Program Size: Code=11840 RO-data=652 RW-data=484 ZI-data=11092  
+Program Size: Code=11840 RO-data=652 RW-data=460 ZI-data=11092  
 ".\Objects\test1.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
@@ -79,13 +79,13 @@ Package Vendor: Keil
       Include file:  Config\ARMCM\FreeRTOSConfig.h
 
    * Component: ARM.FreeRTOS::RTOS:Core:Cortex-M:10.3.1
-      Include file:  Source\include\task.h
-      Source file:   Source\list.c
-      Source file:   Source\queue.c
       Source file:   Source\tasks.c
       Include file:  Source\include\FreeRTOS.h
       Include file:  Source\include\queue.h
       Include file:  Source\include\semphr.h
+      Include file:  Source\include\task.h
+      Source file:   Source\list.c
+      Source file:   Source\queue.c
       Source file:   Source\portable\RVDS\ARM_CM4F\port.c
       Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
 
@@ -101,12 +101,12 @@ Package Vendor: Keil
       Source file:   Source\portable\MemMang\heap_1.c
 
    * Component: ARM.FreeRTOS::RTOS:Message Buffer:10.3.1
-      Include file:  Source\include\message_buffer.h
       Source file:   Source\stream_buffer.c
+      Include file:  Source\include\message_buffer.h
 
    * Component: ARM.FreeRTOS::RTOS:Stream Buffer:10.3.1
-      Source file:   Source\stream_buffer.c
       Include file:  Source\include\stream_buffer.h
+      Source file:   Source\stream_buffer.c
 
    * Component: ARM.FreeRTOS::RTOS:Timers:10.3.1
       Include file:  Source\include\timers.h
@@ -116,8 +116,8 @@ Package Vendor: Keil
 
    * Component: Keil::Device:Startup:1.0.1
       Source file:   Device\Source\system_TM4C123.c
-      Include file:  Device\Include\TM4C123\TM4C123.h
       Source file:   Device\Source\ARM\startup_TM4C123.s
+      Include file:  Device\Include\TM4C123\TM4C123.h
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

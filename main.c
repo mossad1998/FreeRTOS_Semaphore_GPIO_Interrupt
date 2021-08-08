@@ -3,7 +3,7 @@
 #include <task.h>
 #include <semphr.h>
 #include "GPIO_Driver.h"
-#include "GPIO_Interrupt_Driver.h"
+#include "Interrupt_Driver.h"
 #include "Debug_Driver.h"
 
 //Example of using Semaphore, GPIO_Driver, Interrupt_Driver, and Debug_Driver
